@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "opensavesbutton.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "SelectWorldScreenMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

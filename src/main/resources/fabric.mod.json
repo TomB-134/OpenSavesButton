@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "opensavesbutton",
+  "version": "${version}",
+  "name": "OpenSavesButton",
+  "description": "Adds a button to open saves folder.",
+  "authors": [
+    "TomB-134"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/opensavesbutton/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "opensavesbutton.OpenSavesButton"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "opensavesbutton.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
