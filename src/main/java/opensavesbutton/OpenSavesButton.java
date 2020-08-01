@@ -9,16 +9,17 @@ public class OpenSavesButton implements ModInitializer {
 
     public static Logger LOGGER = LogManager.getLogger();
 
+    //Mod details
     public static final String MOD_NAME = "OpenSavesButton";
     public static final String MOD_VERSION = "v0.0.0";
 
     @Override
     public void onInitialize() {
-        log(Level.INFO, "Initializing " + MOD_NAME + " " + MOD_VERSION);
+        log(Level.INFO, "Initializing " + MOD_NAME + " " + MOD_VERSION); //Let the console know mod initialisation was successful.
         //TODO: Initializer
     }
 
-    public static void log(Level level, String message){
+    public static void log(Level level, String message){ //Logger method generator by fabric mod generator.
         LOGGER.log(level, "["+MOD_NAME+"] " + message);
     }
 
