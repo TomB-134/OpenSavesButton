@@ -1,3 +1,8 @@
+//List of all references to versions so I don't forget to change them when updating mod lmao
+//Gradle.properties
+//OpenSavesButton.java
+//Fabric.mod.json
+
 plugins {
 	id 'fabric-loom' version '0.5-SNAPSHOT'
 	id 'maven-publish'

@@ -9,12 +9,12 @@ public class OpenSavesButton implements ModInitializer {
 
     public static Logger LOGGER = LogManager.getLogger();
 
-    public static final String MOD_ID = "opensavesbutton";
     public static final String MOD_NAME = "OpenSavesButton";
+    public static final String MOD_VERSION = "v0.0.0";
 
     @Override
     public void onInitialize() {
-        log(Level.INFO, "Initializing OpenSaveButton");
+        log(Level.INFO, "Initializing " + MOD_NAME + " " + MOD_VERSION);
         //TODO: Initializer
     }
 

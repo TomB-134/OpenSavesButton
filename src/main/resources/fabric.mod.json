@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "opensavesbutton",
-  "version": "${version}",
+  "version": "0.0.0",
   "name": "OpenSavesButton",
   "description": "Adds a button to open saves folder.",
   "authors": [
-    "TomB-134"
+    "TomB_134"
   ],
   "contributors": [],
   "contact": {},

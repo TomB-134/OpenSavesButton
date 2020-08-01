@@ -33,5 +33,4 @@ public class SelectWorldScreenMixin extends Screen {
         File file = new File(client.runDirectory + "\\saves");
         Util.getOperatingSystem().open(file);
     }
-
 }
