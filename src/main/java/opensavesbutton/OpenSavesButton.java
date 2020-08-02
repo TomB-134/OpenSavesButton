@@ -16,7 +16,6 @@ public class OpenSavesButton implements ModInitializer {
     @Override
     public void onInitialize() {
         log(Level.INFO, "Initializing " + MOD_NAME + " " + MOD_VERSION); //Let the console know mod initialisation was successful.
-        //TODO: Initializer
     }
 
     public static void log(Level level, String message){ //Logger method generator by fabric mod generator.
