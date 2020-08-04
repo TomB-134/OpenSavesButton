@@ -27,18 +27,20 @@ public class SelectWorldScreenMixin extends Screen {
         this.addButton(new ButtonWidget(this.width / 2 + 160, //Create open saves folder button.
                 this.height - 28, 72, 20,
                 new LiteralText("Folder"),
-                (button -> openSavesFolder(this.client)))); //On button press call openSavesFolder method.
+                (button -> {
+                    assert this.client != null;
+                    openSavesFolder(this.client);
+                }))); //On button press call openSavesFolder method.
         this.addButton(new ButtonWidget(this.width / 2 + 160, //Create reload button
                 this.height - 52, 72, 20, new LiteralText("Reload"),
-                button -> reload(this.client))); //On button press call reload method
+                button -> {
+                    assert this.client != null;
+                    this.client.openScreen(new SelectWorldScreen(parent));
+                })); //On button press call reload method
     }
 
     private void openSavesFolder(MinecraftClient client) {
         File file = new File(client.runDirectory + "\\saves"); //Create saves file from current running directory.
         Util.getOperatingSystem().open(file); //Amazingly, minecraft already has a method for opening a file.
-    }
-
-    private void reload(MinecraftClient client) {
-        client.openScreen(new SelectWorldScreen(parent)); //Create a new instance of the select world screen and make the client open it.
     }
 }
