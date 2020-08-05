@@ -29,14 +29,14 @@ public class SelectWorldScreenMixin extends Screen {
                 new LiteralText("Folder"),
                 (button -> {
                     assert this.client != null;
-                    openSavesFolder(this.client);
+                    openSavesFolder(this.client); //Open saves folder.
                 }))); //On button press call openSavesFolder method.
-        this.addButton(new ButtonWidget(this.width / 2 + 160, //Create reload button
+        this.addButton(new ButtonWidget(this.width / 2 + 160, //Create reload button.
                 this.height - 52, 72, 20, new LiteralText("Reload"),
                 button -> {
                     assert this.client != null;
-                    this.client.openScreen(new SelectWorldScreen(parent));
-                })); //On button press call reload method
+                    this.client.openScreen(new SelectWorldScreen(parent)); //Refresh screen, by creating a new one.
+                })); //On button press call reload method.
     }
 
     private void openSavesFolder(MinecraftClient client) {
