@@ -4,7 +4,7 @@ This mod requires [Fabric Loader](https://fabricmc.net/use/) and [Fabric API](ht
 
 ![Imgur Image](https://i.imgur.com/TbOJ313.png)
 
-Notice: This mod is in early development. Although being simple and realtively unintrusive to the games code, there is no guarantee the code is flawless or bug free. Mod may conflict with others, always test on a backed up instance first. 
+Notice: This mod is in early development. Although being simple and relatively unintrusive to the games code, there is no guarantee the code is flawless or bug free. Mod may conflict with others, always test on a backed up instance first. 
 
 ## Installation
 
