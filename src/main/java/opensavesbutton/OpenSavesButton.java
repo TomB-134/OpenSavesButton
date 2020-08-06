@@ -11,7 +11,7 @@ public class OpenSavesButton implements ModInitializer {
 
     //Mod details
     public static final String MOD_NAME = "OpenSavesButton";
-    public static final String MOD_VERSION = "v0.0.1";
+    public static final String MOD_VERSION = "v0.0.2";
 
     @Override
     public void onInitialize() {

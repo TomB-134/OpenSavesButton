@@ -1,22 +1,23 @@
 {
   "schemaVersion": 1,
   "id": "opensavesbutton",
-  "version": "0.0.1",
+  "version": "$version",
   "name": "OpenSavesButton",
-  "description": "Adds a button to open saves folder.",
+  "description": "Adds a button to open saves folder and reload the saves list.",
   "authors": [
     "TomB_134"
   ],
   "contributors": [],
-  "contact": {},
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/opensavesfolder",
+    "issues" : "https://github.com/TomB-134/OpenSavesButton/issues",
+    "sources": "https://github.com/TomB-134/OpenSavesButton"
+  },
   "license": "MIT",
   "icon": "assets/opensavesbutton/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "opensavesbutton.OpenSavesButton"
-    ],
-    "client": [],
+    "main": ["opensavesbutton.OpenSavesButton"],
     "server": []
   },
   "mixins": [
@@ -24,6 +25,10 @@
   ],
   "depends": {
     "fabricloader": ">=0.9.0",
-    "fabric": "*"
+    "fabric": "*",
+    "minecraft": ">=1.16-"
+  },
+  "recommends": {
+    "modmenu": ">=1.14.0"
   }
 }
