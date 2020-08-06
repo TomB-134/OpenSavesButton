@@ -11,3 +11,7 @@ Notice: This mod is in early development. Although being simple and relatively u
 1. Download and install Fabric from here: https://fabricmc.net/use
 2. Download Fabric API mod from here: https://www.curseforge.com/minecraft/mc-mods/fabric-api and place in your mods folder.
 3. Download Open Saves Button from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/opensavesfolder) or from [the github page](https://github.com/TomB-134/OpenSavesButton) and place in your mods folder.
+
+#### TODO
+* Ability to turn each button on/off
+* Add mod menu support
