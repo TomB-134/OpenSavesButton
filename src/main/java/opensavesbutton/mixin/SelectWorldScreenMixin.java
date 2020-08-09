@@ -24,14 +24,14 @@ public class SelectWorldScreenMixin extends Screen {
 
     @Inject(at = @At("HEAD"), method = "init()V") //Inject at UI creation.
     public void init(CallbackInfo info) {
-        this.addButton(new ButtonWidget(this.width / 2 + 160, //Create open saves folder button.
+        this.addButton(new ButtonWidget(this.width / 2 - 232, //Create open saves folder button.
                 this.height - 28, 72, 20,
                 new LiteralText("Folder"),
                 (button -> {
                     assert this.client != null;
                     openSavesFolder(this.client); //Open saves folder.
                 }))); //On button press call openSavesFolder method.
-        this.addButton(new ButtonWidget(this.width / 2 + 160, //Create reload button.
+        this.addButton(new ButtonWidget(this.width / 2 - 232, //Create reload button.
                 this.height - 52, 72, 20, new LiteralText("Reload"),
                 button -> {
                     assert this.client != null;
