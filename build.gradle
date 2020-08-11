@@ -14,13 +14,13 @@ minecraft {
 }
 
 dependencies {
-	//to change the versions see the gradle.properties file
-	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	minecraft "com.mojang:minecraft:1.16.2"
+	mappings "net.fabricmc:yarn:1.16.2+build.1:v2"
+	modImplementation "net.fabricmc:fabric-loader:0.9.1+build.205"
 	modImplementation "io.github.prospector:modmenu:${project.mod_menu_version}"
 
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	//Fabric api
+	modImplementation "net.fabricmc.fabric-api:fabric-api:0.17.1+build.394-1.16"
 }
 
 processResources {
