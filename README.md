@@ -1,5 +1,5 @@
 # Open Saves Button
-[![CurseForge downloads](http://cf.way2muchnoise.eu/full_360438_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/opensavesfolder)
+[![CurseForge downloads](http://cf.way2muchnoise.eu/full_399519_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/opensavesfolder)
 
 This mod adds a simple button to the singleplayer menu that upon being pressed will open the saves folder from .minecraft. Similar to the open pack folder button in resource packs. It also includes a reload button that will reload the list of worlds so you don't have to exit the menu when adding/removing worlds.
 This mod requires [Fabric Loader](https://fabricmc.net/use/) and [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
