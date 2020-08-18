@@ -1,3 +1,5 @@
+# This mod has been merged with another and is no longer being maintained see [MinimalMenu](https://github.com/TomB-134/MinimalMenu)
+
 # Open Saves Button
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue)
 ![Game version](https://img.shields.io/badge/minecraft-1.16.2-blueviolet)
