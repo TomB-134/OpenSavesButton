@@ -20,3 +20,5 @@ Notice: This mod is in early development. Although being simple and relatively u
 #### TODO
 * Ability to turn each button on/off
 * Add mod menu support
+
+# ^ - see [MinimalMenu](https://github.com/TomB-134/MinimalMenu)
